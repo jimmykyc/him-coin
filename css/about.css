@@ -1,0 +1,124 @@
+#about-ani {
+    padding-top: 90px;
+    padding-bottom: 50px
+}
+
+.container .title {
+    margin-bottom: 119px
+}
+
+.img-about {
+    width: 100%;
+    margin-top: 75px;
+    position: relative
+}
+
+.img-about>img:nth-child(1) {
+    width: 100%;
+    padding-right: 0
+}
+
+.img-about>img:nth-child(2) {
+    width: 56.1%;
+    position: absolute;
+    top: -90px;
+    left: 48%;
+    transform: translateX(-50%)
+}
+
+.content {
+    width: 100%;
+    position: relative
+}
+
+.content>img {
+    width: 100%
+}
+
+.content .paragraph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    color: #844818;
+    padding: 10%
+}
+
+.paragraph p {
+    font-size: 20px !important;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.communication {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 36px;
+    padding: 38px 0;
+    margin-bottom: 0 !important
+}
+
+.communication li>a {
+    display: block
+}
+
+.communication li>a span {
+    color: #844818;
+    font-size: 24px
+}
+
+.communication li>a img {
+    margin-right: 15px;
+    width: 100%;
+    object-fit: cover
+}
+
+.intro .item {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%
+}
+
+.intro h4 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffe25c;
+    text-shadow: 2px 2px 1px #000;
+    margin-top: 20px
+}
+
+.img-icon {
+    width: 100%
+}
+
+.img-icon img {
+    width: 100%;
+    display: block;
+    margin: 0 auto
+}
+
+.intro .item {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    background: url(../images/about/woodbg.png) repeat;
+    background-size: cover; 
+}
+
+.intro p {
+    margin: 24px auto 0;
+    font-size: 1rem;
+    max-width: 400px;
+    padding: 20px;
+    color: #222222
+}
+
+.item.pt-10 {
+    margin-top: 10rem
+}

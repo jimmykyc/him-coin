@@ -1,0 +1,567 @@
+@media(min-width:768px) {
+    .pt-md-10 {
+        padding-top: 10rem !important
+    }
+
+    .comming-soon {
+        margin-top: 80px
+    }
+}
+
+@media(max-width:768px) {
+    #aniSlider .ani {
+        width: 100px !important;
+        height: 101px !important
+    }
+
+    .container .title {
+        width: 100% !important;
+        margin: 0 auto
+    }
+
+    #aniSlider .ani>img {
+        width: 94px;
+        height: 94px;
+        right: 11px;
+        bottom: 15px
+    }
+
+    #aniSlider .carousel-control-prev>img,
+    #aniSlider .carousel-control-next>img {
+        width: 50%
+    }
+
+    .paragraph p {
+        font-size: 1.2rem
+    }
+
+    .skills .skill a {
+        border-radius: 20px;
+        border: 1px solid transparent
+    }
+
+    #gameplay .content img:nth-child(2) {
+        bottom: -21% !important;
+        left: -10%
+    }
+
+    .item-advitor {
+        width: 90% !important
+    }
+
+    .line .card {
+        width: calc(100% - 40px);
+        left: unset !important;
+        right: 0
+    }
+
+    #roadmap .line {
+        width: 6px;
+        margin: 0;
+        margin-left: 10px
+    }
+
+    #roadmap .card.left,
+    #roadmap .card.right {
+        left: -100%;
+        width: calc(100% - 40px)
+    }
+
+    #roadmap .card.mobile_map {
+        position: absolute;
+        animation-name: right_to_left;
+        animation-duration: 2s;
+        z-index: 1;
+        left: 40px
+    }
+
+    #roadmap .line .circle {
+        left: 0;
+        margin-left: 12px
+    }
+
+    #roadmap .line::before {
+        left: 10px
+    }
+
+    .line .arrow-down img {
+        width: 71%;
+        transform: translateX(calc(50% - 12px))
+    }
+
+    .line .arrow-down {
+        left: 10px
+    }
+
+    #coreteam {
+        padding-bottom: 60px
+    }
+}
+
+@media(max-width:992px) {
+    body {
+        font-size: 12px
+    }
+
+    .title h2 {
+        font-size: 1.8em !important
+    }
+
+    p {
+        font-size: 1rem
+    }
+
+    .img-icon img {
+        width: 50%
+    }
+
+    #about-ani .aboutgroup {
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    #about-ani .img-about {
+        width: 100%;
+        margin: 50px 0;
+        position: relative
+    }
+
+    .list-investor {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 30px
+    }
+
+    .item-investor:last-child {
+        display: inline-block !important
+    }
+}
+
+@media(max-width:1200px) {
+    h5 {
+        font-size: 24px !important
+    }
+
+    .container {
+        max-width: 100%
+    }
+
+    .container .title {
+        width: 80%;
+        margin: 0 auto
+    }
+
+    header {
+        padding-top: 0
+    }
+
+    .navbar .col>.menu {
+        display: none !important
+    }
+
+    .navbar-toggler {
+        display: block
+    }
+
+    #about-ani {
+        padding-top: 50px;
+        padding-bottom: 106px
+    }
+
+    #about-ani .container .title {
+        margin-bottom: 50px !important
+    }
+
+    .communication {
+        margin-bottom: 20px !important
+    }
+
+    .intro p {
+        max-width: 100%
+    }
+
+    .intro .img-icon {
+        margin: 0 auto
+    }
+
+    #token-mobile {
+        display: block
+    }
+
+    #token-mobile .container .title {
+        margin-bottom: 30px !important
+    }
+
+    #ani {
+        padding-bottom: 50px
+    }
+
+    #ani .container .title {
+        margin-bottom: 50px !important
+    }
+
+    .skills {
+        width: fit-content;
+        margin-top: 0 !important
+    }
+
+    .skills .skill {
+        margin-right: 0;
+        padding: 0 10px
+    }
+
+    .ani-slider {
+        margin-top: 50px !important;
+        width: 90%
+    }
+
+    #gameplay {
+        padding-bottom: 100px
+    }
+
+    #gameplay .container .title {
+        margin-bottom: 42px !important
+    }
+
+    .title-gameplay {
+        margin-top: 30px
+    }
+
+    .title-gameplay h5 {
+        margin-bottom: 15px
+    }
+
+    #advisor {
+        padding-bottom: 60px
+    }
+
+    .item-advitor {
+        width: 94% !important
+    }
+
+    .logo-footer {
+        width: 50px;
+        margin: 0 auto;
+        margin-bottom: 20px !important
+    }
+
+    footer .socials {
+        margin-bottom: 30px
+    }
+
+    footer .socials li {
+        margin: 0 20px
+    }
+
+    footer .socials li a {
+        margin: 0;
+        padding: 29px 0;
+        width: 64px
+    }
+
+    #investor {
+        padding-bottom: 100px
+    }
+
+    .list-investor {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px
+    }
+
+    .item-investor {
+        width: 100%
+    }
+
+    footer {
+        padding-bottom: 30px
+    }
+
+    .logo-footer {
+        width: 80% !important;
+        margin: 0 auto
+    }
+}
+
+@media(min-width:576px) {}
+
+@media(max-width:576px) {
+    boby {
+        font-size: 12px
+    }
+
+    .btn-play-des {
+        display: none
+    }
+
+    .btn-play-mobile {
+        display: block
+    }
+
+    .bg-hero a>img {
+        width: 180px
+    }
+
+    .hero-socials {}
+
+    .hero-socials {
+        background-size: contain
+    }
+
+    .list-social-des,
+    .title-des {
+        display: none
+    }
+
+    .list-social-mob,
+    .title-mob {
+        display: block
+    }
+
+    ul.list-social-mob img {
+        width: 90%;
+        display: block;
+        margin: 0 auto
+    }
+
+    img.box-img {
+        width: 100%;
+        height: auto
+    }
+
+    .paragraph p {
+        font-size: 1rem;
+        text-align: center
+    }
+
+    .content>img {
+        width: 95%;
+        margin: 0 auto;
+        display: block
+    }
+
+    .communication {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 20px !important
+    }
+
+    .communication li a {
+        height: auto;
+        border: none;
+        border-radius: 0
+    }
+
+    .communication li a img {
+        width: 100%;
+        margin-right: 4px
+    }
+
+    .communication li>a img {
+        height: auto
+    }
+
+    .intro .img-icon {
+        width: 150%;
+        margin: 0 auto;
+        margin-left: -25%;
+        margin-top: -20%
+    }
+
+    .intro p {
+        text-align: center;
+        max-width: 90%
+    }
+
+    .ahc-coin {
+        display: none
+    }
+
+    .aniw-coin {
+        display: none
+    }
+
+    .skill-pitlet-mob {
+        display: none
+    }
+
+    .ani-slider {
+        margin-top: 50px !important;
+        width: 100%
+    }
+
+    .slick-arrow>img {
+        width: 60%
+    }
+
+    .slick-prev {
+        left: 20%
+    }
+
+    .slick-next {
+        right: 20%
+    }
+
+    .skills .skill {
+        margin: 0
+    }
+
+    .aniw-coin-mob img {
+        object-fit: cover;
+        width: auto;
+        display: block;
+        margin: 0 auto
+    }
+
+    .ahc-coin-mob img {
+        width: auto;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto
+    }
+
+    #gameplay svg {
+        top: -36.5%
+    }
+
+    #roadmap .line {
+        width: 6px;
+        height: 100%
+    }
+
+    .line .card p {
+        left: 20px;
+        top: 46px;
+        font-size: .8rem
+    }
+
+    .member .avatar {
+        background: #fff;
+        width: 90%;
+        height: 90%;
+        border: 6px solid #17a4a9;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        overflow: hidden
+    }
+
+    .member p {
+        font-size: .8rem
+    }
+
+    .member-slider .slick-next,
+    .list-advisor .slick-next {
+        right: 14%
+    }
+
+    .member-slider .slick-prev,
+    .list-advisor .slick-prev {
+        left: 14%
+    }
+
+    button.slick-arrow img {
+        width: 44%
+    }
+
+    .member-slider .slick-arrow {
+        top: 22%
+    }
+
+    section#coreteam h2 {
+        top: 56%
+    }
+
+    footer .container>div img {
+        width: 75%;
+        object-fit: cover
+    }
+
+    .logo-footer {
+        width: 100% !important;
+        margin: 0 auto
+    }
+
+    .aniw-coin-mob {
+        display: block
+    }
+
+    .ahc-coin-mob {
+        display: block
+    }
+}
+
+@media(max-width:576px) {
+    p {
+        font-size: 14px
+    }
+
+    h3 {
+        font-size: 2rem
+    }
+
+    h4 {
+        font-size: 20px
+    }
+
+    .container .title {
+        width: 100% !important
+    }
+
+    .title>h2 {
+        font-size: 1rem !important
+    }
+
+    .logo {
+        width: 44vw
+    }
+
+    .collapse ul li a {
+        font-size: 20px !important;
+        margin: 0 10px
+    }
+
+    .communication {
+        padding: 20px 0;
+        grid-gap: 14px
+    }
+
+    .communication li a img {
+        margin-right: 4px
+    }
+
+    .communication li a span {
+        font-size: 1rem
+    }
+
+    #token-mobile .card-token .img-card {
+        width: 100px;
+        margin-right: 10px
+    }
+
+    .skills .skill {
+        padding: 0 !important
+    }
+
+    .skills .skill a {
+        padding: 2px;
+        border: 1px solid transparent;
+        border-radius: 10px !important
+    }
+
+    #roadmap .line-roadmap {
+        height: 1200px
+    }
+
+    #roadmap .line .card {
+        left: 0;
+        transform: translateX(0px);
+        width: calc(100% - 40px);
+        margin-left: 40px
+    }
+
+    footer .socials li {
+        width: 50px;
+        margin: 0 16px !important
+    }
+}
